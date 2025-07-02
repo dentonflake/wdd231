@@ -140,7 +140,7 @@ h2 {
     align-self: flex-end;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1050px) {
 
     main {
         display: grid;

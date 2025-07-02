@@ -206,7 +206,7 @@ body {
     color: var(--color-primary-800);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1050px) {
     .header__open {
         display: none;
     }
