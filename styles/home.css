@@ -82,8 +82,8 @@ h2 {
 }
 
 .courses__selected, .courses__filter:hover {
-    background-color: var(--color-primary-200);
-    color: var(--color-primary-950);
+    background-color: var(--color-primary-950);
+    color: var(--color-primary-200);
     box-shadow: var(--shadow-md);
     transition: 0.2s;
 }
