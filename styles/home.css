@@ -1,7 +1,7 @@
 main {
     max-width: 1200px;
     margin-inline: auto;
-    padding: 3rem;
+    padding: 1.5rem;
 
     display: flex;
     flex-direction: column;
@@ -146,6 +146,7 @@ h2 {
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        padding: 3rem;
     }
 
     .courses__cards {
