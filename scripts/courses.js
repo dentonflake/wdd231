@@ -131,23 +131,6 @@ filterAll.addEventListener('click', () => {
     }, 0);
 
     filterAll.classList.add('courses__selected');
-    filterComplete.classList.remove('courses__selected');
-    filterCSE.classList.remove('courses__selected');
-    filterWDD.classList.remove('courses__selected');
-});
-
-filterComplete.addEventListener('click', () => {
-
-    const filteredCourses = courses.filter(course => course.completed);
-    
-    displayCourses(filteredCourses);
-
-    totalCredits.textContent = filteredCourses.reduce((total, course) => {
-        return total + course.credits;
-    }, 0);
-
-    filterAll.classList.remove('courses__selected');
-    filterComplete.classList.add('courses__selected');
     filterCSE.classList.remove('courses__selected');
     filterWDD.classList.remove('courses__selected');
 });
@@ -163,7 +146,6 @@ filterCSE.addEventListener('click', () => {
     }, 0);
 
     filterAll.classList.remove('courses__selected');
-    filterComplete.classList.remove('courses__selected');
     filterCSE.classList.add('courses__selected');
     filterWDD.classList.remove('courses__selected');
 });
@@ -179,7 +161,6 @@ filterWDD.addEventListener('click', () => {
     }, 0);
 
     filterAll.classList.remove('courses__selected');
-    filterComplete.classList.remove('courses__selected');
     filterCSE.classList.remove('courses__selected');
     filterWDD.classList.add('courses__selected');
 });
