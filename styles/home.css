@@ -78,12 +78,11 @@ h2 {
     border-radius: 0.5rem;
     font-size: 1rem;
     color: var(--color-primary-950);
-    /* box-shadow: var(--shadow-sm); */
 }
 
 .courses__selected, .courses__filter:hover {
     background-color: var(--color-primary-950);
-    color: var(--color-primary-200);
+    color: var(--color-primary-050);
     box-shadow: var(--shadow-md);
     transition: 0.2s;
 }
