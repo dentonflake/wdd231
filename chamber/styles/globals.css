@@ -115,7 +115,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-neutral-950);
+    background-color: var(--color-neutral-800);
     color: var(--color-neutral-050);
     padding: 3rem;
     position: relative;
@@ -155,7 +155,7 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
-    background: var(--color-neutral-950);
+    background: var(--color-neutral-800);
     display: none;
     flex-direction: column;
     padding: 1.5rem;
@@ -174,7 +174,7 @@ body {
 }
 
 .header__link {
-    color: var(--color-neutral-500);
+    color: var(--color-neutral-400);
     text-decoration: none;
 }
 
@@ -226,7 +226,6 @@ body {
     }
 
     .header__link {
-        color: var(--color-neutral-500);
         font-weight: 400;
         font-size: 1rem;
     }
