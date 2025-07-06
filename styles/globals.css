@@ -159,7 +159,6 @@ body {
     display: none;
     flex-direction: column;
     padding: 3rem;
-    box-shadow: var(--shadow-lg);
 }
 
 .header__menu.show {

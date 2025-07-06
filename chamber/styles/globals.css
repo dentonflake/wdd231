@@ -160,7 +160,6 @@ body {
     display: none;
     flex-direction: column;
     padding: 3rem 3rem;
-    box-shadow: var(--shadow-lg);
     z-index: 1;
 }
 
