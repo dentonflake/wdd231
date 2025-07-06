@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Chamber of Commerce</title>
+    <title>Gilbert Chamber of Commerce</title>
     <meta name="author" content="Denton Flake">
     <meta name="description"
         content="Directory page for the Chamber of Commerce website, showcasing local businesses and organizations.">
@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:title" content="Gilbert Chamber of Commerce">
     <meta property="og:description"
         content="Directory page for the Chamber of Commerce website, showcasing local businesses and organizations.">
     <meta property="og:type" content="website">
@@ -32,10 +32,10 @@
 
 <body>
     <header class="header">
-        <span class="header__identity">
+        <div class="header__identity">
             <img class="header__logo" src="./images/water-tower.png" alt="Logo of the project">
-            Gilbert Chamber of Commerce
-        </span>
+            <p class="header__title">Gilbert<br><span>Chamber of Commerce</span></p>
+        </div>
 
         <button class="header__open" id="burger" aria-label="Toggle menu">
             <img class="header__icon" id="burger-icon" src="./images/burger.png" alt="Icon of hamburger menu">
@@ -52,8 +52,15 @@
     </header>
 
     <footer class="footer">
-        <p id="lastModified"></p>
-        <p>&copy;<span id="currentyear"></span> &bullet; Denton Flake &bullet; Arizona, USA</p>
+
+        <div class="footer__chamber-details">
+            <p><strong>Gilbert Chamber of Commerce</strong></p>
+            <p>119 North Gilbert Road, Ste 101</p>
+            <p>P.O. Box 527</p>
+            <p>Gilbert, AZ 85299-0527</p>
+            <p>(480) 892-0056</p>
+        </div>
+
         <div class="footer__links">
             <a class="footer__link" target="_blank" href="https://github.com/dentonflake">
                 <svg class="footer__svg" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -79,6 +86,13 @@
                         d="M657.152 896v-297.216h99.541333l14.890667-115.541333h-114.432V409.514667c0-33.450667 9.301333-56.277333 57.258667-56.277334h61.184V249.898667a818.773333 818.773333 0 0 0-89.173334-4.565334c-88.192 0-148.565333 53.845333-148.565333 152.746667v85.162667h-99.754667v115.541333h99.754667V896H170.666667a42.666667 42.666667 0 0 1-42.666667-42.666667V170.666667a42.666667 42.666667 0 0 1 42.666667-42.666667h682.666666a42.666667 42.666667 0 0 1 42.666667 42.666667v682.666666a42.666667 42.666667 0 0 1-42.666667 42.666667h-196.181333z" />
                 </svg>
             </a>
+        </div>
+
+        <div class="footer__class-details">
+            <p><strong>WDD231 Class Project</strong></p>
+            <p>Denton Flake</p>
+            <p>&copy; <span id="currentyear"></span> Gilbert Chamber of Commerce</p>
+            <p id="lastModified"></p>
         </div>
     </footer>
 </body>

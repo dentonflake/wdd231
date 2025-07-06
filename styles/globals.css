@@ -155,10 +155,10 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
-    background: var(--color-neutral-950);
+    background: var(--color-neutral-900);
     display: none;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 3rem;
     box-shadow: var(--shadow-lg);
 }
 
