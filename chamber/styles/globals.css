@@ -126,15 +126,15 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .header__logo {
-    height: 2rem;
+    height: 2.5rem;
 }
 
 .header__title span {
-    color: var(--color-neutral-400);
-    color: var(--color-neutral-400);
+    color: var(--color-neutral-200);
 }
 
 .header__open {
@@ -161,6 +161,7 @@ body {
     flex-direction: column;
     padding: 3rem 3rem;
     box-shadow: var(--shadow-lg);
+    z-index: 1;
 }
 
 .header__menu.show {

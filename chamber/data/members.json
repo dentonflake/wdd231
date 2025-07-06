@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Hawkins Scoops Ahoy",
+        "address": "Starcourt Mall, Hawkins, IN",
+        "phone": "(805) 555-1985",
+        "website": "https://scoopsahoyhawkins.com",
+        "image": "icecream.webp",
+        "membershipLevel": 3,
+        "description": "Ice cream parlor run by Steve and Robin. Secret base of operations... sometimes."
+    },
+    {
+        "name": "Byers Electronics",
+        "address": "Maple Street, Hawkins, IN",
+        "phone": "(805) 555-0112",
+        "website": "https://byerselectronics.net",
+        "image": "electronics.webp",
+        "membershipLevel": 2,
+        "description": "Home electronics and radios. Servicing Hawkins since 1979."
+    },
+    {
+        "name": "Hawkins High School",
+        "address": "1 Tiger Drive, Hawkins, IN",
+        "phone": "(805) 555-1983",
+        "website": "https://hawkinshigh.edu",
+        "image": "school.webp",
+        "membershipLevel": 1,
+        "description": "Home of the Tigers. Go Team!"
+    },
+    {
+        "name": "Murray's Investigations",
+        "address": "Unknown Bunker, Hawkins, IN",
+        "phone": "(805) 555-TRUTH",
+        "website": "https://murrayxfiles.org",
+        "image": "investigate.webp",
+        "membershipLevel": 2,
+        "description": "Independent investigative services. Fluent in Russian."
+    },
+    {
+        "name": "Hopper's Cabin Rentals",
+        "address": "Forest Road 13, Hawkins, IN",
+        "phone": "(805) 555-0007",
+        "website": "https://hopperscabins.com",
+        "image": "cabin.webp",
+        "membershipLevel": 1,
+        "description": "Rustic cabins. Quiet... mostly. Beware of Demodogs."
+    },
+    {
+        "name": "Surfer Boy Pizza",
+        "address": "Hawkins Strip Mall, IN",
+        "phone": "(805) 555-PIZZA",
+        "website": "https://surferboypizza.com",
+        "image": "pizza.webp",
+        "membershipLevel": 3,
+        "description": "Righteous pizza delivered by Argyle. Extra sauce included."
+    },
+    {
+        "name": "Hawkins Lab",
+        "address": "1610 County Road, Hawkins, IN",
+        "phone": "(805) 555-0001",
+        "website": "https://hawkinslab.gov",
+        "image": "lab.webp",
+        "membershipLevel": 3,
+        "description": "Top-secret government facility. Not open to the public. Experiments may be ongoing."
+    }
+]

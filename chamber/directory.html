@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Gilbert Chamber of Commerce</title>
+    <title>Hawkins Chamber of Commerce</title>
     <meta name="author" content="Denton Flake">
     <meta name="description"
         content="Directory page for the Chamber of Commerce website, showcasing local businesses and organizations.">
@@ -17,24 +17,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <meta property="og:title" content="Gilbert Chamber of Commerce">
+    <meta property="og:title" content="Hawkins Chamber of Commerce">
     <meta property="og:description"
         content="Directory page for the Chamber of Commerce website, showcasing local businesses and organizations.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dentonflake.github.io/wdd231/chamber/directory.html">
-    <meta property="og:image" content="https://dentonflake.github.io/wdd231/chamber/images/gilbert.webp">
+    <meta property="og:image" content="https://dentonflake.github.io/wdd231/chamber/images/hawkins.webp">
 
     <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="styles/directory.css">
+
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/list.css">
     
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/dates.js" defer></script>
+    <script src="./scripts/members.js" defer></script>
 </head>
 
 <body>
     <header class="header">
         <div class="header__identity">
             <img class="header__logo" src="./images/water-tower.png" alt="Logo of the project">
-            <p class="header__title">Gilbert<br><span>Chamber of Commerce</span></p>
+            <p class="header__title">Hawkins<br><span>Chamber of Commerce</span></p>
         </div>
 
         <button class="header__open" id="burger" aria-label="Toggle menu">
@@ -43,22 +48,33 @@
 
         <nav class="header__menu" id="menu">
             <ul>
-                <li><a href="#" class="header__link active">Home</a></li>
-                <li><a href="#" class="header__link">Directory</a></li>
+                <li><a href="index.html" class="header__link">Home</a></li>
+                <li><a href="#" class="header__link active">Directory</a></li>
                 <li><a href="#" class="header__link">Join</a></li>
                 <li><a href="#" class="header__link">Discover</a></li>
             </ul>
         </nav>
     </header>
 
+    <main>
+        <h1>Directory</h1>
+
+        <section class="members">
+            <div class="members__options">
+                <button class="members__option" id="grid">CARD</button>
+                <button class="members__option" id="list">LIST</button>
+            </div>
+            <div class="members__grid" id="member-cards"></div>
+        </section>
+    </main>
+
     <footer class="footer">
 
         <div class="footer__chamber-details">
-            <p><strong>Gilbert Chamber of Commerce</strong></p>
-            <p>119 North Gilbert Road, Ste 101</p>
-            <p>P.O. Box 527</p>
-            <p>Gilbert, AZ 85299-0527</p>
-            <p>(480) 892-0056</p>
+            <p><strong>Hawkins Chamber of Commerce</strong></p>
+            <p>1256 Briarcliff Road</p>
+            <p>NE, Atlanta, GA 30306</p>
+            <p>(805) 457-4992</p>
         </div>
 
         <div class="footer__links">
@@ -91,7 +107,7 @@
         <div class="footer__class-details">
             <p><strong>WDD231 Class Project</strong></p>
             <p>Denton Flake</p>
-            <p>&copy; <span id="currentyear"></span> Gilbert Chamber of Commerce</p>
+            <p>&copy; <span id="currentyear"></span> Hawkins Chamber of Commerce</p>
             <p id="lastModified"></p>
         </div>
     </footer>
