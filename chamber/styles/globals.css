@@ -126,7 +126,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .header__logo {
@@ -147,8 +147,7 @@ body {
 }
 
 .header__icon {
-    width: 2rem;
-    height: auto;
+    height: 2.5rem;
 }
 
 .header__menu {
