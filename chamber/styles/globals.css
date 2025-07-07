@@ -127,6 +127,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 .header__logo {
@@ -135,6 +136,7 @@ body {
 
 .header__title span {
     color: var(--color-neutral-200);
+    font-weight: 400;
 }
 
 .header__open {
