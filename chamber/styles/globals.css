@@ -111,6 +111,10 @@ body {
     background-color: var(--color-neutral-050);
 }
 
+h1 {
+    color: var(--color-neutral-950);
+}
+
 .header {
     display: flex;
     justify-content: space-between;

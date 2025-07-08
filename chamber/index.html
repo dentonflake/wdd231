@@ -25,9 +25,14 @@
     <meta property="og:image" content="https://dentonflake.github.io/wdd231/chamber/images/gilbert.webp">
 
     <link rel="stylesheet" href="styles/globals.css">
-    
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/grid.css">
+
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/dates.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 
 <body>
@@ -43,13 +48,39 @@
 
         <nav class="header__menu" id="menu">
             <ul>
-                <li><a href="#" class="header__link active">Home</a></li>
+                <li><a href="index.html" class="header__link active">Home</a></li>
                 <li><a href="directory.html" class="header__link">Directory</a></li>
-                <li><a href="#" class="header__link">Join</a></li>
-                <li><a href="#" class="header__link">Discover</a></li>
+                <li><a href="join.html" class="header__link">Join</a></li>
+                <li><a href="discover.html" class="header__link">Discover</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="hero">
+        <img class="hero__image" src="images/hero.webp" alt="Image of Hawkins Lab">
+        <div class="hero__content">
+            <p class="hero__subtitle">Chamber of Commerce</p>
+            <p class="hero__title">Welcome to Hawkins</p>
+            <a href="join.html" class="hero__action">JOIN TODAY</a>
+        </div>
+    </section>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="events">
+            <h3>Events</h3>
+            <p>No upcoming events</p>
+        </section>
+
+        <section class="weather">
+            <img class="weather__icon" src="images/sun.png" alt="Icon of a sun">
+        </section>
+
+        <section class="spotlights">
+            <div class="spotlights__items" id="spotlight-cards"></div>
+        </section>
+    </main>
 
     <footer class="footer">
 

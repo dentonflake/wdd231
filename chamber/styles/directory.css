@@ -8,10 +8,6 @@ main {
     gap: 2rem;
 }
 
-h1 {
-    color: var(--color-neutral-950);
-}
-
 .members {
     display: flex;
     flex-direction: column;
