@@ -46,7 +46,7 @@
 .hero__action {
     text-decoration: none;
 
-    font-size: var(--text-xl);
+    font-size: var(--text-base);
     font-weight: 600;
 
     background-color: var(--color-primary-500);
@@ -71,11 +71,19 @@
     .hero__title {
         font-size: var(--text-7xl);
     }
+
+    .hero__action {
+        font-size: var(--text-l);
+    }
 }
 
 @media (min-width: 1000px) {
 
     .hero__title {
         font-size: var(--text-9xl);
+    }
+
+    .hero__action {
+        font-size: var(--text-xl);
     }
 }
