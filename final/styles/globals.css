@@ -181,12 +181,12 @@ h1 {
 }
 
 .header__link {
-  color: var(--color-neutral-400);
+  color: var(--color-neutral-050);
   text-decoration: none;
 }
 
 .header__active {
-  color: var(--color-neutral-050);
+  border-bottom: 0.2rem solid var(--color-secondary-400);
 }
 
 .footer {
