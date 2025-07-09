@@ -191,7 +191,7 @@ h1 {
 
 .footer {
   padding: 3rem;
-  background-color: var(--color-neutral-050);
+  background-color: var(--color-neutral-200);
   color: var(--color-neutral-900);
 
   display: flex;
