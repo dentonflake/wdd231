@@ -112,8 +112,16 @@ body {
   background-color: var(--color-neutral-050);
 }
 
+section, h1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 h1 {
-  color: var(--color-neutral-050);
+  color: var(--color-neutral-950);
+  margin-inline: auto;
+  text-align: center;
 }
 
 .header {
@@ -257,5 +265,9 @@ h1 {
 
   .footer__class-details p {
     text-align: end;
+  }
+
+  h1 {
+    text-align: left;
   }
 }

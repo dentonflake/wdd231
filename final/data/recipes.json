@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Texas Brisket",
+    "category": "Meat Platter",
+    "cookTime": "12 hours",
+    "spiceLevel": "Medium",
+    "ingredients": [
+      "1 whole beef brisket (12\u201314 lbs)",
+      "1/4 cup kosher salt",
+      "1/4 cup coarse black pepper",
+      "1 tbsp garlic powder"
+    ],
+    "directions": "Trim excess fat, leaving about 1/4 inch on the fat cap. Mix salt, pepper, and garlic powder. Coat brisket evenly. Preheat smoker to 225\u00b0F using post oak wood. Place brisket fat side up and smoke for 6\u20137 hours. Wrap in butcher paper and continue smoking until internal temperature reaches 203\u00b0F. Rest in a cooler for 1\u20132 hours before slicing against the grain."
+  },
+  {
+    "name": "Pulled Pork Sandwich",
+    "category": "Sandwich",
+    "cookTime": "10 hours",
+    "spiceLevel": "Mild",
+    "ingredients": [
+      "8\u201310 lb pork shoulder",
+      "1/4 cup BBQ dry rub",
+      "6 brioche buns",
+      "1 cup coleslaw",
+      "1/2 cup BBQ sauce"
+    ],
+    "directions": "Rub pork shoulder with dry rub. Preheat smoker to 225\u00b0F with hickory or applewood. Smoke until internal temperature reaches 165\u00b0F (about 6 hours), then wrap in foil and continue to 203\u00b0F. Rest for 1 hour. Shred meat, mix with sauce, and serve on toasted buns topped with coleslaw."
+  },
+  {
+    "name": "Smoked Mac & Cheese",
+    "category": "Side",
+    "cookTime": "2 hours",
+    "spiceLevel": "None",
+    "ingredients": [
+      "1 lb elbow macaroni",
+      "2 cups shredded cheddar",
+      "1 cup shredded gouda",
+      "2 cups milk",
+      "1/2 cup heavy cream",
+      "1/4 cup butter",
+      "1/2 cup breadcrumbs"
+    ],
+    "directions": "Cook macaroni until al dente. In a saucepan, melt butter, add milk and cream, then stir in cheese until smooth. Mix with macaroni and place in foil pan. Top with breadcrumbs. Smoke uncovered at 225\u00b0F for 2 hours using mild wood like pecan."
+  },
+  {
+    "name": "Smoked Sausage Platter",
+    "category": "Meat Platter",
+    "cookTime": "3 hours",
+    "spiceLevel": "Medium",
+    "ingredients": [
+      "2 lbs pork sausages",
+      "Whole grain mustard",
+      "Pickles",
+      "White bread"
+    ],
+    "directions": "Place sausages on smoker at 225\u00b0F. Smoke until internal temperature reaches 165\u00b0F, about 3 hours. Serve sliced with mustard, pickles, and white bread."
+  },
+  {
+    "name": "BBQ Chicken Quarters",
+    "category": "Meat Platter",
+    "cookTime": "3.5 hours",
+    "spiceLevel": "Mild",
+    "ingredients": [
+      "4 chicken leg quarters",
+      "2 tbsp BBQ dry rub",
+      "1/2 cup BBQ sauce"
+    ],
+    "directions": "Pat chicken dry and apply rub under and over the skin. Smoke at 250\u00b0F until internal temperature is 175\u00b0F (around 3 hours). Brush with BBQ sauce and continue smoking uncovered for 30 more minutes to set the glaze."
+  },
+  {
+    "name": "Burnt Ends",
+    "category": "Meat Platter",
+    "cookTime": "14 hours",
+    "spiceLevel": "Medium",
+    "ingredients": [
+      "Point end of brisket",
+      "1/2 cup BBQ sauce",
+      "1/4 cup brown sugar"
+    ],
+    "directions": "Smoke brisket point as you would a full brisket (see Texas Brisket). Once it hits 203\u00b0F, cube it and toss in a mix of BBQ sauce and brown sugar. Return cubes to smoker in a foil pan and cook for 1 more hour until caramelized and sticky."
+  },
+  {
+    "name": "Pork Belly Bites",
+    "category": "Meat Platter",
+    "cookTime": "4 hours",
+    "spiceLevel": "Medium",
+    "ingredients": [
+      "3 lbs pork belly",
+      "2 tbsp BBQ rub",
+      "1/4 cup honey",
+      "1/4 cup brown sugar"
+    ],
+    "directions": "Cube pork belly and coat with rub. Smoke at 250\u00b0F for 2 hours. Transfer to a pan with honey and sugar, cover with foil, and return for 1 hour. Uncover and cook 30 minutes more until caramelized."
+  },
+  {
+    "name": "Smoked Jalape\u00f1o Poppers",
+    "category": "Side",
+    "cookTime": "2 hours",
+    "spiceLevel": "Hot",
+    "ingredients": [
+      "10 jalape\u00f1os",
+      "1 cup cream cheese",
+      "1/2 cup shredded cheddar",
+      "10 slices bacon"
+    ],
+    "directions": "Halve and core jalape\u00f1os. Mix cream cheese and cheddar, fill each half, and wrap with bacon. Smoke at 250\u00b0F for 2 hours or until bacon is crisp and cheese is bubbly."
+  },
+  {
+    "name": "BBQ Chicken Sandwich",
+    "category": "Sandwich",
+    "cookTime": "4 hours",
+    "spiceLevel": "Mild",
+    "ingredients": [
+      "2 lbs boneless chicken thighs",
+      "2 tbsp dry rub",
+      "4 buns",
+      "Pickles",
+      "1/2 cup BBQ sauce"
+    ],
+    "directions": "Season thighs and smoke at 250\u00b0F until internal temperature reaches 175\u00b0F. Rest, then shred and toss with sauce. Serve on buns with pickles."
+  },
+  {
+    "name": "Cornbread",
+    "category": "Side",
+    "cookTime": "1 hour",
+    "spiceLevel": "None",
+    "ingredients": [
+      "1 cup cornmeal",
+      "1 cup flour",
+      "1 tsp baking soda",
+      "2 eggs",
+      "1 cup buttermilk",
+      "1/4 cup butter"
+    ],
+    "directions": "Mix dry and wet ingredients separately, then combine. Pour into greased cast iron skillet and bake on smoker at 350\u00b0F for 1 hour or until golden brown and firm in the center."
+  },
+  {
+    "name": "Smoked Baked Beans",
+    "category": "Side",
+    "cookTime": "3 hours",
+    "spiceLevel": "Mild",
+    "ingredients": [
+      "2 cans pork & beans",
+      "1/4 cup brown sugar",
+      "1/4 cup BBQ sauce",
+      "4 slices bacon",
+      "1/2 cup diced onion"
+    ],
+    "directions": "In a foil pan, combine beans, sugar, sauce, and onion. Lay bacon strips on top. Smoke at 275\u00b0F uncovered for 3 hours until thickened and bacon is cooked."
+  },
+  {
+    "name": "Smoked Corn on the Cob",
+    "category": "Side",
+    "cookTime": "1.5 hours",
+    "spiceLevel": "None",
+    "ingredients": [
+      "4 ears corn",
+      "4 tbsp butter",
+      "Salt and pepper"
+    ],
+    "directions": "Peel back husks without removing them. Butter and season corn, then wrap husks back around. Smoke at 250\u00b0F for 1.5 hours until tender."
+  },
+  {
+    "name": "Beef Rib Platter",
+    "category": "Meat Platter",
+    "cookTime": "8 hours",
+    "spiceLevel": "Medium",
+    "ingredients": [
+      "3 beef plate ribs",
+      "2 tbsp salt",
+      "2 tbsp coarse black pepper"
+    ],
+    "directions": "Season ribs with salt and pepper. Smoke at 275\u00b0F for 7\u20138 hours until internal temp reaches 203\u00b0F and they probe like butter. Rest before slicing."
+  },
+  {
+    "name": "Smoked Bologna Sandwich",
+    "category": "Sandwich",
+    "cookTime": "2 hours",
+    "spiceLevel": "Mild",
+    "ingredients": [
+      "1 bologna chub",
+      "2 tbsp BBQ rub",
+      "White bread",
+      "Mustard"
+    ],
+    "directions": "Score bologna and coat with rub. Smoke at 250\u00b0F for 2 hours. Slice thick and serve on bread with mustard."
+  },
+  {
+    "name": "Smoked Potato Salad",
+    "category": "Side",
+    "cookTime": "2 hours",
+    "spiceLevel": "None",
+    "ingredients": [
+      "2 lbs russet potatoes",
+      "1/2 cup mayo",
+      "2 tbsp mustard",
+      "2 boiled eggs",
+      "1/4 cup chopped celery",
+      "1 tsp smoked paprika"
+    ],
+    "directions": "Parboil and cube potatoes. Smoke them in a foil pan for 1 hour at 250\u00b0F. Cool, then mix with remaining ingredients. Chill before serving."
+  },
+  {
+    "name": "Smoked Chicken Wings",
+    "category": "Meat Platter",
+    "cookTime": "2.5 hours",
+    "spiceLevel": "Hot",
+    "ingredients": [
+      "2 lbs chicken wings",
+      "2 tbsp dry rub",
+      "1/4 cup hot sauce",
+      "2 tbsp melted butter"
+    ],
+    "directions": "Rub wings and smoke at 250\u00b0F for 2 hours. Toss in hot sauce and butter mixture. Return to smoker or broil briefly to crisp."
+  },
+  {
+    "name": "Triple-Smoked Cheeseburger",
+    "category": "Sandwich",
+    "cookTime": "1.5 hours",
+    "spiceLevel": "Mild",
+    "ingredients": [
+      "1.5 lbs ground beef",
+      "4 burger buns",
+      "4 cheddar slices",
+      "4 bacon slices",
+      "BBQ aioli"
+    ],
+    "directions": "Form patties and smoke at 225\u00b0F until internal temp hits 135\u00b0F. Top with cheese and bacon. Toast buns on smoker. Assemble with BBQ aioli."
+  },
+  {
+    "name": "Brisket Grilled Cheese",
+    "category": "Sandwich",
+    "cookTime": "15 minutes",
+    "spiceLevel": "None",
+    "ingredients": [
+      "1 cup leftover brisket",
+      "4 slices Texas toast",
+      "1/2 cup shredded cheddar",
+      "2 tbsp butter"
+    ],
+    "directions": "Butter the outside of bread. Layer cheese and brisket inside. Cook on griddle or smoker at 350\u00b0F until golden and melty."
+  },
+  {
+    "name": "Smoked Deviled Eggs",
+    "category": "Side",
+    "cookTime": "1 hour",
+    "spiceLevel": "Mild",
+    "ingredients": [
+      "6 hard-boiled eggs",
+      "2 tbsp mayo",
+      "1 tsp mustard",
+      "1/4 tsp smoked paprika"
+    ],
+    "directions": "Peel and halve eggs. Smoke at 225\u00b0F for 1 hour. Mix yolks with mayo, mustard, and paprika. Pipe filling into whites."
+  },
+  {
+    "name": "BBQ Meat Sampler",
+    "category": "Meat Platter",
+    "cookTime": "Varies",
+    "spiceLevel": "Varies",
+    "ingredients": [
+      "Brisket slices",
+      "Rib tips",
+      "Sausage links",
+      "Turkey breast",
+      "Pickles",
+      "Onions",
+      "White bread"
+    ],
+    "directions": "Prepare each meat per its recipe. Slice and plate with pickles, onions, and bread for a hearty platter."
+  },
+  {
+    "name": "Smoked Peach Cobbler",
+    "category": "Side",
+    "cookTime": "1.5 hours",
+    "spiceLevel": "None",
+    "ingredients": [
+      "4 cups sliced peaches",
+      "1/4 cup brown sugar",
+      "1 tsp cinnamon",
+      "1 box yellow cake mix",
+      "1/2 cup butter"
+    ],
+    "directions": "Place peaches, sugar, and cinnamon in a cast iron skillet. Top with cake mix and sliced butter. Smoke at 350\u00b0F for 1.5 hours until golden and bubbling."
+  }
+]
