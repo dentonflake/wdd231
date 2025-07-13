@@ -13,11 +13,6 @@
     background-size: cover;
 }
 
-.members__card:hover {
-    box-shadow: var(--shadow-xl);
-    transition: 0.2s;
-}
-
 .members__card img {
     width: 100%;
     height: 10rem;

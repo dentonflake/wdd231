@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/weather.css">
 
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/dates.js" defer></script>
@@ -69,15 +70,23 @@
         <h1>Home</h1>
 
         <section class="events">
-            <h3>Events</h3>
+            <h2>Events</h2>
             <p>No upcoming events</p>
         </section>
 
         <section class="weather">
-            <img class="weather__icon" src="images/sun.png" alt="Icon of a sun">
+            <h2>Hawkins, IN</h2>
+
+            <div class="weather__current">
+                <p class="weather__degrees"><span id="weather-temperature"></span>&deg;F</p>
+                <p class="weather__description" id="weather-description"></p>
+            </div>
+
+            <div class="weather__forecast" id="weather-forecast"></div>
         </section>
 
         <section class="spotlights">
+            <h2>Business Spotlights</h2>
             <div class="spotlights__items" id="spotlight-cards"></div>
         </section>
     </main>
