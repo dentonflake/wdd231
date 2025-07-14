@@ -31,6 +31,21 @@ main {
   gap: 2rem;
 }
 
+.spotlights__action {
+    text-decoration: none;
+    font-size: var(--text-sm);
+    background-color: var(--color-neutral-800);
+    color: var(--color-neutral-050);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    justify-self: flex-end;
+}
+
+.spotlights__action:hover {
+    background-color: var(--color-neutral-600);
+    transition: 0.2s;
+}
+
 @media (min-width: 750px) {
 
   main {
