@@ -8,6 +8,10 @@
   gap: 1rem;
 }
 
+.weather__title {
+  font-weight: var(--font-weight-regular);
+}
+
 .weather__current {
   display: flex;
   justify-content: space-between;
@@ -17,6 +21,7 @@
 
 .weather__degrees {
   font-size: var(--text-base);
+  font-weight: var(--font-weight-medium);
 }
 
 .weather__degrees span {
