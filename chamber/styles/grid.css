@@ -7,7 +7,7 @@
 .members__card {
     background-color: var(--color-neutral-100);
     box-shadow: var(--shadow-md);
-    border-radius: 0.25rem;
+    border-radius: var(--radius-md);
     overflow: hidden;
     color: var(--color-neutral-900);
     background-size: cover;
