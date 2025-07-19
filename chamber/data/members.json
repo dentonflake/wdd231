@@ -9,22 +9,22 @@
         "description": "Ice cream parlor run by Steve and Robin. Secret base of operations... sometimes."
     },
     {
-        "name": "Byers Electronics",
+        "name": "The Palace Arcade",
         "address": "Maple Street, Hawkins, IN",
         "phone": "(805) 555-0112",
-        "website": "https://byerselectronics.net",
-        "image": "electronics.webp",
+        "website": "https://palacearcadehawkins.com",
+        "image": "arcade.webp",
         "membershipLevel": 2,
-        "description": "Home electronics and radios. Servicing Hawkins since 1979."
+        "description": "The hottest hangout spot in Hawkins. Play Dragon’s Lair, Dig Dug, and maybe catch a glimpse of Mad Max setting a new high score."
     },
     {
-        "name": "Hawkins High School",
+        "name": "Hawkins Middle School",
         "address": "1 Tiger Drive, Hawkins, IN",
         "phone": "(805) 555-1983",
-        "website": "https://hawkinshigh.edu",
+        "website": "https://hawkinsmiddle.edu",
         "image": "school.webp",
         "membershipLevel": 1,
-        "description": "Home of the Tigers. Go Team!"
+        "description": "AV Club meets after school, but beware the flickering lights and strange noises in the halls."
     },
     {
         "name": "Murray's Investigations",
@@ -36,13 +36,13 @@
         "description": "Independent investigative services. Fluent in Russian."
     },
     {
-        "name": "Hopper's Cabin Rentals",
-        "address": "Forest Road 13, Hawkins, IN",
-        "phone": "(805) 555-0007",
-        "website": "https://hopperscabins.com",
-        "image": "cabin.webp",
+        "name": "Starcourt Mall",
+        "address": "100 Starcourt Lane, Hawkins, IN",
+        "phone": "(805) 555-1985",
+        "website": "https://starcourtmallhawkins.com",
+        "image": "mall.webp",
         "membershipLevel": 1,
-        "description": "Rustic cabins. Quiet... mostly. Beware of Demodogs."
+        "description": "Shop 'til you drop at Hawkins' favorite mall! Featuring Scoops Ahoy, RadioShack, and... something strange in the lower levels."
     },
     {
         "name": "Surfer Boy Pizza",
@@ -51,7 +51,7 @@
         "website": "https://surferboypizza.com",
         "image": "pizza.webp",
         "membershipLevel": 3,
-        "description": "Righteous pizza delivered by Argyle. Extra sauce included."
+        "description": "Pineapple on pizza is gnarly you say... Well I say, \"try before you deny!\""
     },
     {
         "name": "Hawkins Lab",
