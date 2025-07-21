@@ -53,96 +53,94 @@
     </header>
 
     <main>
-        <p style="text-align: center;">WORK IN PROGRESS</p>
         <h1>Join Our Community</h1>
 
-        <form class="form" action="thankyou.html" method="GET">
+        <section class="info">
 
-            <section class="form__section form__section--info">
-                <h2 class="form__heading">Information</h2>
+            <h2 class="info__heading">Information</h2>
 
-                <div class="form__group">
-                    <label class="form__label" for="firstName">First Name <span class="form__required">*</span></label>
-                    <input class="form__input" type="text" id="firstName" name="firstName" placeholder="John"
+            <form class="info__form" action="thankyou.html" method="GET">
+
+                <div class="info__group">
+                    <label class="info__label" for="firstName">First Name <span class="info__required">*</span></label>
+                    <input class="info__input" type="text" id="firstName" name="firstName" placeholder="John"
                         autocomplete="given-name">
                 </div>
 
-                <div class="form__group">
-                    <label class="form__label" for="lastName">Last Name <span class="form__required">*</span></label>
-                    <input class="form__input" type="text" id="lastName" name="lastName" placeholder="Doe"
+                <div class="info__group">
+                    <label class="info__label" for="lastName">Last Name <span class="info__required">*</span></label>
+                    <input class="info__input" type="text" id="lastName" name="lastName" placeholder="Doe"
                         autocomplete="family-name">
                 </div>
 
-                <div class="form__group form__org">
-                    <label class="form__label" for="orgTitle">Organization Title</label>
-                    <input class="form__input" type="text" id="orgTitle" name="orgTitle"
+                <div class="info__group info__org">
+                    <label class="info__label" for="orgTitle">Organization Title</label>
+                    <input class="info__input" type="text" id="orgTitle" name="orgTitle"
                         placeholder="CEO, Director, etc" autocomplete="organization-title">
                 </div>
 
-                <div class="form__group">
-                    <label class="form__label" for="email">Email Address <span class="form__required">*</span></label>
-                    <input class="form__input" type="email" id="email" name="email" placeholder="john@company.com"
+                <div class="info__group">
+                    <label class="info__label" for="email">Email <span class="info__required">*</span></label>
+                    <input class="info__input" type="email" id="email" name="email" placeholder="john@company.com"
                         autocomplete="email">
                 </div>
 
-                <div class="form__group">
-                    <label class="form__label" for="phone">Phone Number <span class="form__required">*</span></label>
-                    <input class="form__input" type="tel" id="phone" name="phone" placeholder="(555) 555-5555"
+                <div class="info__group">
+                    <label class="info__label" for="phone">Mobile <span class="info__required">*</span></label>
+                    <input class="info__input" type="tel" id="phone" name="phone" placeholder="(555) 555-5555"
                         pattern="[0-9\-+\s()]{7,}" autocomplete="tel">
                 </div>
 
-                <div class="form__group form__business">
-                    <label class="form__label" for="businessName">Business Name <span
-                            class="form__required">*</span></label>
-                    <input class="form__input" type="text" id="businessName" name="businessName" required
+                <div class="info__group info__business">
+                    <label class="info__label" for="businessName">Business Name <span
+                            class="info__required">*</span></label>
+                    <input class="info__input" type="text" id="businessName" name="businessName" required
                         autocomplete="organization">
                 </div>
 
-                <div class="form__group form__description">
-                    <label class="form__label" for="description">Description</label>
-                    <textarea class="form__textarea" id="description" name="description" rows="4"
+                <div class="info__group info__description">
+                    <label class="info__label" for="description">Description</label>
+                    <textarea class="info__textarea" id="description" name="description" rows="4"
                         autocomplete="off"></textarea>
                 </div>
-            </section>
 
-            <section class="form__section form__section--membership">
-                <div class="form__membership-cards">
+            </form>
+        </section>
 
-                    <div class="form__card form__recommended">
-                        <label for="gold" class="form__card-content">
-                            <h3 class="form__card-title">Gold</h3>
-                            <p class="form__card-desc">Premium membership with maximum exposure.</p>
-                            <input class="form__radio" type="radio" id="gold" name="membershipLevel" value="gold">
-                        </label>
-                    </div>
+        <section class="memberships">
 
-                    <div class="form__card">
-                        <label for="silver" class="form__card-content">
-                            <h3 class="form__card-title">Silver</h3>
-                            <p class="form__card-desc">Enhanced benefits for growing businesses.</p>
-                            <input class="form__radio" type="radio" id="silver" name="membershipLevel" value="silver">
-                        </label>
-                    </div>
+            <h2 class="memberships__heading">Memberships</h2>
 
-                    <div class="form__card">
-                        <label for="bronze" class="form__card-content">
-                            <h3 class="form__card-title">Bronze</h3>
-                            <p class="form__card-desc">Basic membership for small businesses.</p>
-                            <input class="form__radio" type="radio" id="bronze" name="membershipLevel" value="bronze">
-                        </label>
-                    </div>
-
-                    <div class="form__card">
-                        <label for="non-profit" class="form__card-content">
-                            <h3 class="form__card-title">Non Profit</h3>
-                            <p class="form__card-desc">For registered non-profit organizations.</p>
-                            <input class="form__radio" type="radio" id="non-profit" name="membershipLevel"
-                                value="non-profit" required>
-                        </label>
-                    </div>
+            <div class="memberships__cards">
+                <div class="memberships__card memberships__gold">
+                    <label for="gold" class="form__card-content">
+                        <h3 class="form__card-title">Gold</h3>
+                        <p class="form__card-desc">Premium membership with maximum exposure.</p>
+                    </label>
                 </div>
-            </section>
-        </form>
+
+                <div class="memberships__card">
+                    <label for="silver" class="form__card-content">
+                        <h3 class="form__card-title">Silver</h3>
+                        <p class="form__card-desc">Enhanced benefits for growing businesses.</p>
+                    </label>
+                </div>
+
+                <div class="memberships__card">
+                    <label for="bronze" class="form__card-content">
+                        <h3 class="form__card-title">Bronze</h3>
+                        <p class="form__card-desc">Basic membership for small businesses.</p>
+                    </label>
+                </div>
+
+                <div class="memberships__card">
+                    <label for="non-profit" class="form__card-content">
+                        <h3 class="form__card-title">Non Profit</h3>
+                        <p class="form__card-desc">For registered non-profit organizations.</p>
+                    </label>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
