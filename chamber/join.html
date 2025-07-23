@@ -108,10 +108,10 @@
                     <label class="info__label" for="membership">Membership Level <span class="info__required">*</span></label>
                     <select class="info__input" id="membership" name="membership" required>
                         <option value="" disabled selected>Select a membership</option>
+                        <option value="np">Non-Profit - Free</option>
                         <option value="gold">Gold Membership - $25/month</option>
                         <option value="silver">Silver Membership - $20/month</option>
                         <option value="bronze">Bronze Membership - $10/month</option>
-                        <option value="np">Non-Profit - Free</option>
                     </select>
                 </div>
 
@@ -127,6 +127,12 @@
             <h2 class="memberships__heading">Memberships</h2>
 
             <div class="memberships__cards">
+
+                <div class="memberships__card memberships__np">
+                    <p class="memberships__title">Non-Profit<br><span>Community Support</span></p>
+                    <p class="memberships__price"><span>Free</span></p>
+                </div>
+                
                 <div class="memberships__card memberships__gold">
                     <p class="memberships__title">Gold Membership<br><span>Best Value</span></p>
                     <p class="memberships__price"><span>$25</span> / Month</p>
@@ -142,10 +148,6 @@
                     <p class="memberships__price"><span>$10</span> / Month</p>
                 </div>
 
-                <div class="memberships__card memberships__np">
-                    <p class="memberships__title">Non-Profit<br><span>Community Support</span></p>
-                    <p class="memberships__price"><span>Free</span></p>
-                </div>
             </div>
         </section>
     </main>
