@@ -25,9 +25,11 @@
     <meta property="og:image" content="https://dentonflake.github.io/wdd231/chamber/images/gilbert.webp">
 
     <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
 
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/dates.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 </head>
 
 <body>
@@ -51,7 +53,24 @@
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <h1>Thank you Denton,</h1>
+        <p>Your request to join our community has been sent! We will be in touch with you soon!</p>
+        <section class="request">
+            <div class="request__header">
+                <h2 class="request__business" id="business-name"></h2>
+                <p class="request__membership" id="membership"></p>
+                <p class="request__description" id="description"></p>
+            </div>
+            <div class="request__contact">
+                <p class="request__person" id="person"><span class="request__name" id="name"></span></p>
+                <p class="request__email" id="email"></p>
+                <p class="request__phone" id="phone"></p>
+            </div>
+            <p class="request__timestamp" id="timestamp"></p>
+        </section>
+        <a class="discover" href="discover.html">GO DISCOVER</a>
+    </main>
 
     <footer class="footer">
 
