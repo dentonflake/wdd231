@@ -1,0 +1,41 @@
+.modal {
+  margin: revert;
+  border: none;
+  box-shadow: var(--shadow-md);
+  padding: 2rem;
+
+  /* max-width: 25rem; */
+  width: 40rem;
+  background-color: var(--color-neutral-050);
+  border-radius: 5px;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal__close {
+  background: none;
+  border: none;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 2rem;
+  height: 2rem;
+}
+
+.modal__close img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.modal__content {
+  margin-top: 1rem;
+}

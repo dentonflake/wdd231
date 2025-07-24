@@ -11,7 +11,7 @@ main {
 .info {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .info__form {
@@ -19,10 +19,10 @@ main {
   grid-template-columns: 1fr;
   gap: 1rem;
 
-  /* padding: 3rem;
+  padding: 2rem;
   background-color: var(--color-neutral-100);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md); */
+  box-shadow: var(--shadow-md);
 }
 
 .info__group {
@@ -32,7 +32,7 @@ main {
 }
 
 .info__label {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-medium);
   color: var(--color-neutral-700)
 }
 
@@ -49,6 +49,23 @@ main {
   resize: none;
   width: 100%;
   appearance: none;
+}
+
+select:invalid {
+  color: var(--color-neutral-400);
+}
+
+.info__input:focus,
+.info__textarea:focus,
+.info__input:valid,
+.info__textarea:valid {
+
+  color: var(--color-neutral-950);
+}
+
+.info__input::placeholder,
+.info__textarea::placeholder {
+  color: var(--color-neutral-400);
 }
 
 .info__button {
@@ -70,12 +87,12 @@ main {
 }
 
 .info__required {
-  color: red;
+  color: var(--color-neutral-800);
 }
 
 .memberships {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   flex-direction: column;
 }
 
@@ -88,7 +105,7 @@ main {
 }
 
 .memberships__card {
-  background-color: var(--color-neutral-700);
+  background-color: var(--color-neutral-800);
   color: var(--color-neutral-050);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
@@ -101,14 +118,14 @@ main {
 }
 
 .memberships__card:hover {
-  background-color: var(--color-neutral-050);
+  background-color: var(--color-neutral-100);
   color: var(--color-neutral-950);
   transition: 0.2s;
   cursor: pointer;
 }
 
 .memberships__title {
-  font-size: var(--text-xl);
+  font-size: var(--text-2xl);
   font-weight: var(--font-weight-bold);
 }
 
@@ -127,12 +144,12 @@ main {
 }
 
 .memberships__silver {
-  background-color: var(--color-neutral-600);
+  background-color: var(--color-neutral-700);
   color: var(--color-neutral-050);
 }
 
 .memberships__bronze {
-  background-color: var(--color-neutral-500);
+  background-color: var(--color-neutral-600);
   color: var(--color-neutral-050);
 }
 
@@ -143,7 +160,8 @@ main {
 }
 
 .memberships__np:hover {
-  background-color: var(--color-primary-300);
+  border: 0.2rem solid var(--color-primary-200);
+  background-color: var(--color-primary-200);
   color: var(--color-neutral-950);
 }
 

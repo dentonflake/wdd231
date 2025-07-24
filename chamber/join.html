@@ -26,9 +26,11 @@
 
     <link rel="stylesheet" href="styles/globals.css">
     <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/modal.css">
 
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/dates.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
 </head>
 
 <body>
@@ -105,15 +107,18 @@
                 </div>
 
                 <div class="info__group info__membership">
-                    <label class="info__label" for="membership">Membership Level <span class="info__required">*</span></label>
+                    <label class="info__label" for="membership">Membership Level <span
+                            class="info__required">*</span></label>
                     <select class="info__input" id="membership" name="membership" required>
-                        <option value="" disabled selected>Select a membership</option>
+                        <option class="info__input__default" value="" disabled selected>Select a membership</option>
                         <option value="np">Non-Profit - Free</option>
                         <option value="gold">Gold Membership - $25/month</option>
                         <option value="silver">Silver Membership - $20/month</option>
                         <option value="bronze">Bronze Membership - $10/month</option>
                     </select>
                 </div>
+
+                <input type="hidden" name="timestamp" id="timestamp">
 
                 <div class="info__group info__submit">
                     <button class="info__button" type="submit">APPLY</button>
@@ -128,28 +133,86 @@
 
             <div class="memberships__cards">
 
-                <div class="memberships__card memberships__np">
-                    <p class="memberships__title">Non-Profit<br><span>Community Support</span></p>
-                    <p class="memberships__price"><span>Free</span></p>
-                </div>
-                
-                <div class="memberships__card memberships__gold">
-                    <p class="memberships__title">Gold Membership<br><span>Best Value</span></p>
-                    <p class="memberships__price"><span>$25</span> / Month</p>
-                </div>
-
-                <div class="memberships__card memberships__silver">
-                    <p class="memberships__title">Silver Membership<br><span>Popular Choice</span></p>
-                    <p class="memberships__price"><span>$20</span> / Month</p>
-                </div>
-
-                <div class="memberships__card memberships__bronze">
+                <div class="memberships__card memberships__bronze" onclick="bronzeModal.showModal()">
                     <p class="memberships__title">Bronze Membership<br><span>Great Start</span></p>
                     <p class="memberships__price"><span>$10</span> / Month</p>
                 </div>
 
+                <div class="memberships__card memberships__silver" onclick="silverModal.showModal()">
+                    <p class="memberships__title">Silver Membership<br><span>Popular Choice</span></p>
+                    <p class="memberships__price"><span>$20</span> / Month</p>
+                </div>
+
+                <div class="memberships__card memberships__gold" onclick="goldModal.showModal()">
+                    <p class="memberships__title">Gold Membership<br><span>Best Value</span></p>
+                    <p class="memberships__price"><span>$25</span> / Month</p>
+                </div>
+
+                <div class="memberships__card memberships__np" onclick="npModal.showModal()">
+                    <p class="memberships__title">Non-Profit<br><span>Community Support</span></p>
+                    <p class="memberships__price"><span>Free</span></p>
+                </div>
+
             </div>
         </section>
+
+        <dialog class="modal" id="modal-np">
+            <div class="modal__header">
+                <p class="memberships__title">Non-Profit<br><span>Community Support</span></p>
+                <button class="modal__close" id="modal-np-close">
+                    <img src="images/close.png" alt="Image of a close icon">
+                </button>
+            </div>
+            <div class="modal__content">
+                <p>
+                    Non-profit organizations enjoy free membership, access to community events and networking
+                    opportunities, promotion on the chamber website and social media, eligibility for grants and local
+                    support programs, and voting rights in chamber decisions.
+                </p>
+            </div>
+        </dialog>
+
+        <dialog class="modal" id="modal-gold">
+            <div class="modal__header">
+                <p class="memberships__title">Gold Membership<br><span>Best Value</span></p>
+                <button class="modal__close" id="modal-gold-close">
+                    <img src="images/close.png" alt="Image of a close icon">
+                </button>
+            </div>
+            <div class="modal__content">
+                <p>
+                    Gold members receive premium website placement, priority event sponsorship, exclusive networking sessions, enhanced social media promotion, free admission to all chamber events, and voting rights in chamber decisions.
+                </p>
+            </div>
+        </dialog>
+
+        <dialog class="modal" id="modal-silver">
+            <div class="modal__header">
+                <p class="memberships__title">Silver Membership<br><span>Popular Choice</span></p>
+                <button class="modal__close" id="modal-silver-close">
+                    <img src="images/close.png" alt="Image of a close icon">
+                </button>
+            </div>
+            <div class="modal__content">
+                <p>
+                    Silver members enjoy featured directory listing, discounted event tickets, access to networking events, social media promotion, and voting rights in chamber decisions.
+                </p>
+            </div>
+        </dialog>
+
+        <dialog class="modal" id="modal-bronze">
+            <div class="modal__header">
+                <p class="memberships__title">Bronze Membership<br><span>Great Start</span></p>
+                <button class="modal__close" id="modal-bronze-close">
+                    <img src="images/close.png" alt="Image of a close icon">
+                </button>
+            </div>
+            <div class="modal__content">
+                <p>
+                    Bronze members receive basic directory listing, invitations to chamber events, networking opportunities, and voting rights in chamber decisions.
+                </p>
+            </div>
+        </dialog>
     </main>
 
     <footer class="footer">
