@@ -46,7 +46,6 @@ document.getElementById('phone').textContent = phone;
 document.getElementById('timestamp').textContent = new Date(timestamp).toLocaleString();
 document.getElementById('description').textContent = description?.trim() || "No description provided.";
 
-// Add optional org title if present
 if (orgTitle) {
   const domOrgTitle = document.createElement('span');
   domOrgTitle.className = "request__position";

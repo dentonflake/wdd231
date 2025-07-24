@@ -61,36 +61,36 @@
 
             <h2 class="info__heading">Information</h2>
 
-            <form class="info__form" action="thankyou.html" method="GET">
+            <form class="info__form" action="thankyou.html" method="GET" autocomplete="on">
 
                 <div class="info__group">
                     <label class="info__label" for="firstName">First Name <span class="info__required">*</span></label>
-                    <input class="info__input" type="text" id="firstName" name="firstName" placeholder="John"
+                    <input class="info__input" type="text" id="firstName" name="firstName" placeholder="John" required
                         autocomplete="given-name">
                 </div>
 
                 <div class="info__group">
                     <label class="info__label" for="lastName">Last Name <span class="info__required">*</span></label>
-                    <input class="info__input" type="text" id="lastName" name="lastName" placeholder="Doe"
+                    <input class="info__input" type="text" id="lastName" name="lastName" placeholder="Doe" required
                         autocomplete="family-name">
                 </div>
 
                 <div class="info__group info__org">
                     <label class="info__label" for="orgTitle">Organization Title</label>
                     <input class="info__input" type="text" id="orgTitle" name="orgTitle"
-                        placeholder="CEO, Director, etc" autocomplete="organization-title">
+                        placeholder="CEO, Director, etc" autocomplete="organization">
                 </div>
 
                 <div class="info__group">
                     <label class="info__label" for="email">Email <span class="info__required">*</span></label>
                     <input class="info__input" type="email" id="email" name="email" placeholder="john@company.com"
-                        autocomplete="email">
+                        required autocomplete="email">
                 </div>
 
                 <div class="info__group">
                     <label class="info__label" for="phone">Mobile <span class="info__required">*</span></label>
                     <input class="info__input" type="tel" id="phone" name="phone" placeholder="(555) 555-5555"
-                        pattern="[0-9\-+\s()]{7,}" autocomplete="tel">
+                        pattern="[0-9\-+\s()]{7,}" required autocomplete="tel">
                 </div>
 
                 <div class="info__group info__business">
@@ -181,7 +181,9 @@
             </div>
             <div class="modal__content">
                 <p>
-                    Gold members receive premium website placement, priority event sponsorship, exclusive networking sessions, enhanced social media promotion, free admission to all chamber events, and voting rights in chamber decisions.
+                    Gold members receive premium website placement, priority event sponsorship, exclusive networking
+                    sessions, enhanced social media promotion, free admission to all chamber events, and voting rights
+                    in chamber decisions.
                 </p>
             </div>
         </dialog>
@@ -195,7 +197,8 @@
             </div>
             <div class="modal__content">
                 <p>
-                    Silver members enjoy featured directory listing, discounted event tickets, access to networking events, social media promotion, and voting rights in chamber decisions.
+                    Silver members enjoy featured directory listing, discounted event tickets, access to networking
+                    events, social media promotion, and voting rights in chamber decisions.
                 </p>
             </div>
         </dialog>
@@ -209,7 +212,8 @@
             </div>
             <div class="modal__content">
                 <p>
-                    Bronze members receive basic directory listing, invitations to chamber events, networking opportunities, and voting rights in chamber decisions.
+                    Bronze members receive basic directory listing, invitations to chamber events, networking
+                    opportunities, and voting rights in chamber decisions.
                 </p>
             </div>
         </dialog>
