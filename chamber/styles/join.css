@@ -138,12 +138,12 @@ main {
 
 .memberships__np {
   background-color: var(--color-neutral-050);
-  border: 0.2rem solid var(--color-primary-400);
+  border: 0.2rem solid var(--color-primary-300);
   color: var(--color-neutral-900);
 }
 
 .memberships__np:hover {
-  background-color: var(--color-primary-400);
+  background-color: var(--color-primary-300);
   color: var(--color-neutral-950);
 }
 
