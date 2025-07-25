@@ -1,5 +1,5 @@
 main {
-  max-width: 1200px;
+  max-width: 800px;
   margin-inline: auto;
   padding: 2rem;
 
@@ -20,7 +20,7 @@ main {
 
 .request__header {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
@@ -29,6 +29,7 @@ main {
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius-md);
   height: max-content;
+  width: max-content;
 }
 
 .request__description {
@@ -73,7 +74,11 @@ main {
 
 @media (min-width: 750px) {
 
-    main {
-        padding: 3rem;
-    }
+  main {
+      padding: 3rem;
+  }
+
+  .request__header {
+    grid-template-columns: 1fr auto;
+  }
 }

@@ -18,6 +18,17 @@ const validateRequiredFields = (queryParameters) => {
   return requiredFields.every(key => queryParameters[key] && queryParameters[key] !== "")
 }
 
+const formatPhoneNumber = (phone) => {
+
+  const match = phone.match(/^(\d{3})(\d{3})(\d{4})$/);
+
+  if (match) {
+    return `(${match[1]}) ${match[2]}-${match[3]}`;
+  }
+
+  return phone;
+};
+
 const queryParameters = getQueryParams()
 
 if (!validateRequiredFields(queryParameters)) {
@@ -36,20 +47,9 @@ const {
   orgTitle
 } = queryParameters
 
-console.log(queryParameters)
-
 document.getElementById('business-name').textContent = businessName;
-document.getElementById('membership').textContent = membership;
+document.getElementById('membership').textContent = `${membership} Member`;
 document.getElementById('name').textContent = `${firstName} ${lastName}`;
 document.getElementById('email').textContent = email;
-document.getElementById('phone').textContent = phone;
+document.getElementById('phone').textContent = formatPhoneNumber(phone);
 document.getElementById('timestamp').textContent = new Date(timestamp).toLocaleString();
-document.getElementById('description').textContent = description?.trim() || "No description provided.";
-
-if (orgTitle) {
-  const domOrgTitle = document.createElement('span');
-  domOrgTitle.className = "request__position";
-  domOrgTitle.textContent = `, ${orgTitle}`;
-
-  document.getElementById('person').appendChild(domOrgTitle);
-}
