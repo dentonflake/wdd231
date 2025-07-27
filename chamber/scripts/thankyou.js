@@ -47,6 +47,7 @@ const {
   orgTitle
 } = queryParameters
 
+document.getElementById('welcome').textContent = `${firstName}`;
 document.getElementById('business-name').textContent = businessName;
 document.getElementById('membership').textContent = `${membership} Member`;
 document.getElementById('name').textContent = `${firstName} ${lastName}`;

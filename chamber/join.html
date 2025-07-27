@@ -77,7 +77,8 @@
 
                 <div class="info__group info__org">
                     <label class="info__label" for="orgTitle">Organization Title</label>
-                    <input class="info__input" type="text" id="orgTitle" name="orgTitle"
+                    <input class="info__input" type="text" id="orgTitle" name="orgTitle" pattern="[A-Za-z\- ]{7,}"
+                        title="Must be at least 7 characters using only letters, hyphens, and spaces"
                         placeholder="CEO, Director, etc" autocomplete="organization">
                 </div>
 
