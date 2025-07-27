@@ -186,7 +186,7 @@ select:invalid {
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translate(5rem);
+    transform: translateY(1rem);
   }
   100% {
     opacity: 1;

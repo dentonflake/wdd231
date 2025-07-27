@@ -112,7 +112,9 @@ body {
 }
 
 h1 {
-    color: var(--color-neutral-950);
+color: var(--color-neutral-950);
+  font-size: var(--text-4xl);
+  line-height: var(--text-4xl--line-height);
 }
 
 .header {
