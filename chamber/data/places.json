@@ -3,48 +3,48 @@
     "name": "Castle Byers",
     "address": "Northwoods Trail, Hawkins Forest, IN",
     "description": "A hidden fort deep in the woods, built by Will Byers as a safe place to escape the real world.",
-    "image": "images/castle_byers.webp"
+    "image": "images/castle-byers.webp"
   },
   {
     "name": "Lover’s Lake",
     "address": "East Lake Road, Hawkins, IN",
     "description": "A serene lakeside spot perfect for stargazing—or uncovering dark secrets beneath the surface.",
-    "image": "images/lovers_lake.webp"
+    "image": "images/lovers-lake.webp"
   },
   {
     "name": "The Rotten Pumpkin Patch",
     "address": "Hargrove Farm Lane, Hawkins, IN",
     "description": "Once a thriving field, now cursed with blackened vines and a haunting stench of decay.",
-    "image": "images/rotten_pumpkin_patch.webp"
+    "image": "images/rotten-pumpkin-patch.webp"
   },
   {
     "name": "Hawkins Quarry",
     "address": "198 Quarry Ridge, Hawkins, IN",
     "description": "An abandoned rock quarry where kids dare each other to jump—and darker things may lurk.",
-    "image": "images/hawkins_quarry.webp"
+    "image": "images/hawkins-quarry.webp"
   },
   {
     "name": "Weathertop Hill",
     "address": "Stormcrest Dr, Edge of Town, Hawkins, IN",
     "description": "A windy overlook perfect for radio signals—and watching for approaching monsters.",
-    "image": "images/weathertop_hill.webp"
+    "image": "images/weathertop-hill.webp"
   },
   {
     "name": "Creel House Front Steps",
     "address": "321 Fear Street, Hawkins, IN",
     "description": "The eerie entrance to the infamous Creel House, marked by twisted vines and haunting echoes.",
-    "image": "images/creel_house_front_steps.webp"
+    "image": "images/creel-house.webp"
   },
   {
     "name": "Munson’s Meadow",
     "address": "Hellfire Lane, Hawkins, IN",
     "description": "A quiet field near the woods where Eddie once jammed with friends—and fate.",
-    "image": "images/munsons_meadow.webp"
+    "image": "images/munsons-meadow.webp"
   },
   {
     "name": "Skull Rock",
     "address": "Skull Rock Pass, Hawkins Forest, IN",
     "description": "A hidden rocky outcrop shaped like a skull—used as a meeting spot and a lookout.",
-    "image": "images/skull_rock.webp"
+    "image": "images/skull-rock.webp"
   }
 ]
