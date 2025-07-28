@@ -1,6 +1,4 @@
 
-const placesContainer = document.getElementById('places-cards');
-
 const getPlaces = async () => {
 
     try {
@@ -67,4 +65,27 @@ const createCards = async () => {
     });
 }
 
+const placesContainer = document.getElementById('places-cards');
+
 createCards();
+
+const lastVisited = localStorage.getItem('lastVisited');
+const message = document.getElementById('message');
+
+if (lastVisited) {
+
+    const millisecondsInADay = 24 * 60 * 60 * 1000;
+    const millisecondsSinceLastVisit = new Date().getTime() - new Date(lastVisited).getTime()
+    const daysSinceLastVisit = Math.floor(millisecondsSinceLastVisit / millisecondsInADay)
+
+    if (millisecondsSinceLastVisit > millisecondsInADay) {
+
+        message.textContent = `You visited ${daysSinceLastVisit} day${ daysSinceLastVisit > 1 ? "s" : ""} ago.`
+
+    } else {
+
+        message.textContent = `Back so soon! Awesome!`
+    }
+}
+
+localStorage.setItem(`lastVisited`, new Date().toISOString());
