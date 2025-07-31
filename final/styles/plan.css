@@ -1,0 +1,213 @@
+:root {
+  /* Primary Colors */
+  --color-primary-050: hsl(186, 100%, 94%);
+  --color-primary-100: hsl(185, 94%, 87%);
+  --color-primary-200: hsl(184, 80%, 74%);
+  --color-primary-300: hsl(184, 65%, 59%);
+  --color-primary-400: hsl(185, 57%, 50%);
+  --color-primary-500: hsl(185, 62%, 45%);
+  --color-primary-600: hsl(184, 77%, 34%);
+  --color-primary-700: hsl(185, 81%, 29%);
+  --color-primary-800: hsl(185, 84%, 25%);
+  --color-primary-900: hsl(184, 91%, 17%);
+  --color-primary-950: hsl(184, 100%, 12%);
+
+  /* Neutral Colors */
+  --color-neutral-050: hsl(210, 1%, 95%);
+  --color-neutral-100: hsl(210, 1%, 90%);
+  --color-neutral-200: hsl(210, 2%, 80%);
+  --color-neutral-300: hsl(210, 3%, 70%);
+  --color-neutral-400: hsl(210, 4%, 60%);
+  --color-neutral-500: hsl(210, 5%, 50%);
+  --color-neutral-600: hsl(210, 6%, 40%);
+  --color-neutral-700: hsl(210, 7%, 30%);
+  --color-neutral-800: hsl(210, 8%, 20%);
+  --color-neutral-900: hsl(210, 9%, 15%);
+  --color-neutral-950: hsl(210, 10%, 10%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: var(--color-neutral-950);
+  color: var(--color-neutral-050);
+}
+
+header,
+footer {
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: var(--color-primary-500);
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+
+  margin-inline: auto;
+
+  display: grid;
+
+  gap: 2rem;
+
+  padding: 1.5rem;
+}
+
+section {
+  background-color: var(--color-neutral-900);
+  padding: 1rem;
+  border-radius: 10px;
+
+  display: grid;
+  gap: 1rem;
+}
+
+section div {
+  display: grid;
+  gap: 1rem;
+}
+
+section div div {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+section div div div {
+  padding: 1rem;
+  background-color: red;
+
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section div div div p {
+  background-color: var(--color-neutral-050);
+  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+  color: var(--color-neutral-950);
+}
+
+.color-primary-050 {
+  background-color: var(--color-primary-050);
+}
+
+.color-primary-100 {
+  background-color: var(--color-primary-100);
+}
+
+.color-primary-200 {
+  background-color: var(--color-primary-200);
+}
+
+.color-primary-300 {
+  background-color: var(--color-primary-300);
+}
+
+.color-primary-400 {
+  background-color: var(--color-primary-400);
+}
+
+.color-primary-500 {
+  background-color: var(--color-primary-500);
+}
+
+.color-primary-600 {
+  background-color: var(--color-primary-600);
+}
+
+.color-primary-700 {
+  background-color: var(--color-primary-700);
+}
+
+.color-primary-800 {
+  background-color: var(--color-primary-800);
+}
+
+.color-primary-900 {
+  background-color: var(--color-primary-900);
+}
+
+.color-primary-950 {
+  background-color: var(--color-primary-950);
+}
+
+.color-neutral-050 {
+  background-color: var(--color-neutral-050);
+}
+
+.color-neutral-100 {
+  background-color: var(--color-neutral-100);
+}
+
+.color-neutral-200 {
+  background-color: var(--color-neutral-200);
+}
+
+.color-neutral-300 {
+  background-color: var(--color-neutral-300);
+}
+
+.color-neutral-400 {
+  background-color: var(--color-neutral-400);
+}
+
+.color-neutral-500 {
+  background-color: var(--color-neutral-500);
+}
+
+.color-neutral-600 {
+  background-color: var(--color-neutral-600);
+}
+
+.color-neutral-700 {
+  background-color: var(--color-neutral-700);
+}
+
+.color-neutral-800 {
+  background-color: var(--color-neutral-800);
+}
+
+.color-neutral-900 {
+  background-color: var(--color-neutral-900);
+}
+
+.color-neutral-950 {
+  background-color: var(--color-neutral-950);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-neutral-400);
+}
