@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "firstName": "Kirk",
+    "lastName": "Flake",
+    "role": "Dad",
+    "image": "stock.jpg",
+    "description": "Kirk is the supportive father who enjoys spending time with his family and working on home projects.",
+    "DOB": "1970-10-15"
+  },
+  {
+    "id": 2,
+    "firstName": "Lori",
+    "lastName": "Flake",
+    "role": "Mom",
+    "image": "stock.jpg",
+    "description": "Lori is the caring mother who loves cooking, gardening, and making everyone feel at home.",
+    "DOB": "1974-12-26"
+  },
+  {
+    "id": 3,
+    "firstName": "Lacy",
+    "lastName": "Coombs",
+    "role": "Daughter",
+    "image": "stock.jpg",
+    "description": "Lacy is the creative sister who enjoys painting, music, and spending time with friends.",
+    "DOB": "1998-10-13"
+  },
+  {
+    "id": 4,
+    "firstName": "Cody",
+    "lastName": "Coombs",
+    "role": "Son-in-law",
+    "image": "stock.jpg",
+    "description": "Cody is the energetic brother-in-law who loves sports, outdoor adventures, and family gatherings.",
+    "DOB": "1995-08-23"
+  },
+  {
+    "id": 5,
+    "firstName": "Denton",
+    "lastName": "Flake",
+    "role": "Son",
+    "image": "stock.jpg",
+    "description": "Denton is passionate about technology, enjoys coding, and values time with loved ones.",
+    "DOB": "2002-02-07"
+  },
+  {
+    "id": 6,
+    "firstName": "Gracie",
+    "lastName": "Flake",
+    "role": "daughter-in-law",
+    "image": "stock.jpg",
+    "description": "Gracie is a cheerful wife who loves baking, traveling, and making memories with family.",
+    "DOB": "2002-12-26"
+  },
+  {
+    "id": 7,
+    "firstName": "Bryce",
+    "lastName": "Flake",
+    "role": "Son",
+    "image": "stock.jpg",
+    "description": "Bryce is an adventurous brother who enjoys gaming, hiking, and learning new things.",
+    "DOB": "2005-10-20"
+  },
+  {
+    "id": 8,
+    "firstName": "Preston",
+    "lastName": "Flake",
+    "role": "Son",
+    "image": "stock.jpg",
+    "description": "Preston is the youngest brother who loves animals, playing outside, and exploring.",
+    "DOB": "2009-08-10"
+  }
+]
