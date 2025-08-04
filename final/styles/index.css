@@ -2,6 +2,9 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
 }
 
 .cast {
@@ -45,6 +48,9 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
 }
 
 @media (min-width: 750px) {
