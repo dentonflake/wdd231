@@ -52,7 +52,7 @@ dialog button img {
 }
 
 .posts__gallary {
-  height: 20rem;
+  height: 100%;
   grid-row: 1 / 2;
   overflow: hidden;
 }
