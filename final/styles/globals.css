@@ -100,10 +100,18 @@ body {
 }
 
 section,
-h1 {
+.main__title {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.main__subtitle {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
 }
 
 h1 {
