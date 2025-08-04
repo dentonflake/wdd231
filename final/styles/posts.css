@@ -44,6 +44,7 @@ dialog button img {
 
 .posts__card {
   width: 100%;
+  height: max-content;
   display: grid;
   grid-template-columns: 1fr;
   box-shadow: var(--shadow-lg);

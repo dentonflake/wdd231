@@ -7,7 +7,8 @@ const cast = await fetchData('data/cast.json')
 const main = async () => {
   const posts = await fetchData('data/posts.json')
   posts.sort((a, b) => a.date < b.date)
-  posts.forEach(post => createCard(post, cast, postCards))
+
+  createCard(posts[0], cast, postCards)
 }
 
 main()
