@@ -1,58 +1,58 @@
 [
   {
     "id": 1,
-    "title": "",
-    "author": "",
-    "date": "",
-    "images": [],
-    "content": ""
+    "title": "Denton & Gracie's Wedding",
+    "author": 5,
+    "date": "2025-01-11",
+    "images": ["images/stock.jpg", "images/stock.jpg", "images/stock.jpg", "images/stock.jpg"],
+    "content": "On January 11, 2025, Denton and Gracie celebrated their wedding surrounded by family and friends. The ceremony was filled with joy, laughter, and heartfelt moments. Everyone enjoyed delicious food, beautiful decorations, and dancing late into the evening. It was a memorable day marking the beginning of their new life together."
   },
   {
     "id": 2,
-    "title": "",
-    "author": "",
-    "date": "",
-    "images": [],
-    "content": ""
+    "title": "Sending Elder Flake off on a 2 year mission",
+    "author": 5,
+    "date": "2024-12-04",
+    "images": ["images/stock.jpg", "images/stock.jpg"],
+    "content": "On December 4, 2024, family and friends gathered to bid farewell to Elder Flake as he embarked on his two-year mission. The send-off was filled with love, encouragement, and heartfelt goodbyes. Everyone expressed their support and excitement for the experiences and growth that await him. It was a meaningful day marking the beginning of a new chapter in Elder Flake's life."
   },
   {
     "id": 3,
-    "title": "",
-    "author": "",
-    "date": "",
-    "images": [],
-    "content": ""
+    "title": "Cruising the Carribean",
+    "author": 1,
+    "date": "2024-09-16",
+    "images": ["images/stock.jpg", "images/stock.jpg", "images/stock.jpg"],
+    "content": "On September 16, 2024, we set sail on a breathtaking Caribbean cruise. The trip was filled with stunning ocean views, exciting excursions, and relaxing days on deck. We explored vibrant ports, enjoyed delicious cuisine, and made unforgettable memories with friends and family. The cruise was a perfect blend of adventure and relaxation, making it a highlight of the year."
   },
   {
     "id": 4,
-    "title": "",
-    "author": "",
-    "date": "",
-    "images": [],
-    "content": ""
+    "title": "Going to the Dan + Shay Concert",
+    "author": 3,
+    "date": "2024-09-05",
+    "images": ["images/stock.jpg", "images/stock.jpg"],
+    "content": "On September 5, 2024, Lacy attended the highly anticipated Dan + Shay concert. The evening was filled with energetic performances, favorite songs, and an enthusiastic crowd. The atmosphere was electric as everyone sang along and enjoyed the live music. It was a memorable night of fun, excitement, and unforgettable moments with friends."
   },
   {
     "id": 5,
-    "title": "",
-    "author": "",
-    "date": "",
-    "images": [],
-    "content": ""
+    "title": "Family Hike in the Superstitions",
+    "author": 2,
+    "date": "2025-02-01",
+    "images": ["images/stock.jpg"],
+    "content": "On February 1, 2025, our family set out for a scenic hike in the Superstition Mountains. The trail offered breathtaking views, fresh air, and a chance to connect with nature. We enjoyed exploring the rugged landscape, spotting local wildlife, and sharing stories along the way. The hike was a wonderful opportunity to spend quality time together and create lasting memories in the great outdoors."
   },
   {
     "id": 6,
-    "title": "",
-    "author": "",
-    "date": "",
-    "images": [],
-    "content": ""
+    "title": "Brian Regan Comedy Show",
+    "author": 2,
+    "date": "2025-02-13",
+    "images": ["images/stock.jpg", "images/stock.jpg", "images/stock.jpg", "images/stock.jpg"],
+    "content": "On February 13, 2025, our family attended the hilarious Brian Regan comedy show. The evening was filled with laughter as Brian delivered his signature jokes and witty observations. The atmosphere was lively, and everyone enjoyed the chance to relax and share in the fun together. It was a memorable night that brought smiles and joy to all."
   },
   {
     "id": 7,
-    "title": "",
-    "author": "",
-    "date": "",
-    "images": [],
-    "content": ""
+    "title": "Trip to Oregon",
+    "author": 6,
+    "date": "2025-02-28",
+    "images": ["images/stock.jpg", "images/stock.jpg", "images/stock.jpg"],
+    "content": "On February 28, 2025, we embarked on a memorable trip to Oregon. The journey featured scenic drives through lush forests, visits to charming coastal towns, and breathtaking views of the Pacific Ocean. We explored local attractions, enjoyed delicious food, and spent quality time together. The trip was filled with adventure, relaxation, and unforgettable experiences that made Oregon a special destination for our family."
   }
 ]
