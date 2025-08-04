@@ -111,10 +111,6 @@ dialog button img {
   .posts__cards {
     grid-template-columns: 1fr 1fr;
   }
-
-  .posts__card {
-    grid-template-rows: 1fr 2fr;
-  }
 }
 
 @media (min-width: 1050px) {
