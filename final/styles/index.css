@@ -31,6 +31,8 @@
 .cast__header img {
   width: 100%;
   border-bottom: solid 0.5rem var(--color-primary-500);
+  height: 15rem;
+  object-fit: cover;
 }
 
 .cast__header p {

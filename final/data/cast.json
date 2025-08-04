@@ -4,7 +4,7 @@
     "firstName": "Kirk",
     "lastName": "Flake",
     "role": "Dad",
-    "image": "stock.jpg",
+    "image": "kirk.webp",
     "description": "Kirk is the supportive father who enjoys spending time with his family and working on home projects.",
     "DOB": "1970-10-15"
   },
@@ -13,7 +13,7 @@
     "firstName": "Lori",
     "lastName": "Flake",
     "role": "Mom",
-    "image": "stock.jpg",
+    "image": "lori.webp",
     "description": "Lori is the caring mother who loves cooking, gardening, and making everyone feel at home.",
     "DOB": "1974-12-26"
   },
@@ -22,7 +22,7 @@
     "firstName": "Lacy",
     "lastName": "Coombs",
     "role": "Daughter",
-    "image": "stock.jpg",
+    "image": "lacy.webp",
     "description": "Lacy is the creative sister who enjoys painting, music, and spending time with friends.",
     "DOB": "1998-10-13"
   },
@@ -31,7 +31,7 @@
     "firstName": "Cody",
     "lastName": "Coombs",
     "role": "Son-in-law",
-    "image": "stock.jpg",
+    "image": "cody.webp",
     "description": "Cody is the energetic brother-in-law who loves sports, outdoor adventures, and family gatherings.",
     "DOB": "1995-08-23"
   },
@@ -40,7 +40,7 @@
     "firstName": "Denton",
     "lastName": "Flake",
     "role": "Son",
-    "image": "stock.jpg",
+    "image": "denton.webp",
     "description": "Denton is passionate about technology, enjoys coding, and values time with loved ones.",
     "DOB": "2002-02-07"
   },
@@ -49,7 +49,7 @@
     "firstName": "Gracie",
     "lastName": "Flake",
     "role": "daughter-in-law",
-    "image": "stock.jpg",
+    "image": "gracie.webp",
     "description": "Gracie is a cheerful wife who loves baking, traveling, and making memories with family.",
     "DOB": "2002-12-26"
   },
@@ -58,7 +58,7 @@
     "firstName": "Bryce",
     "lastName": "Flake",
     "role": "Son",
-    "image": "stock.jpg",
+    "image": "bryce.webp",
     "description": "Bryce is an adventurous brother who enjoys gaming, hiking, and learning new things.",
     "DOB": "2005-10-20"
   },
@@ -67,7 +67,7 @@
     "firstName": "Preston",
     "lastName": "Flake",
     "role": "Son",
-    "image": "stock.jpg",
+    "image": "preston.webp",
     "description": "Preston is the youngest brother who loves animals, playing outside, and exploring.",
     "DOB": "2009-08-10"
   }

@@ -18,6 +18,29 @@ const createCard = (post) => {
     image.src = `images/${img}`
     image.alt = `IMAGE ${i} OF "${post.title}" post`
     gallary.appendChild(image)
+
+
+    const modal = document.createElement('dialog')
+
+    image.addEventListener('click', () => {
+
+      modal.innerHTML = '';
+      const modalImage = image.cloneNode(true);
+      const button = document.createElement('button')
+      const close = document.createElement('img')
+      close.src = 'images/close.png'
+      button.appendChild(close)
+
+      close.addEventListener('click', () => {
+        modal.close()
+      })
+
+      modal.appendChild(modalImage);
+      modal.appendChild(button)
+      modal.showModal();
+    });
+
+    card.appendChild(modal);
   })
 
   const body = document.createElement('div')

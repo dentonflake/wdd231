@@ -1,3 +1,35 @@
+dialog {
+  margin: revert;
+  border: none;
+  box-shadow: var(--shadow-md);
+  height: max-content;
+  max-width: 40rem;
+  width: 100%;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog img {
+  width: 100%;
+  vertical-align: top;
+}
+
+dialog button {
+  position: absolute;
+  background: none;
+  border: none;
+  background-color: var(--color-neutral-050);
+  padding: 0.5rem;
+  top: 1rem;
+  right: 1rem;
+}
+
+dialog button img {
+  width: 2rem;
+}
+
 .posts {
   display: grid;
   grid-template-columns: 1fr;
