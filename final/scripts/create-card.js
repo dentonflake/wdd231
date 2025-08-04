@@ -62,8 +62,8 @@ const createCard = (post, cast, postCards) => {
   date.className = `posts__date`
   body.appendChild(date)
 
-  card.appendChild(body)
   card.appendChild(gallary)
+  card.appendChild(body)
   postCards.appendChild(card)
 }
 
