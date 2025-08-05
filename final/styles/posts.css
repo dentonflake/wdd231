@@ -8,7 +8,7 @@ dialog {
 }
 
 ::backdrop {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 dialog img {
@@ -55,6 +55,7 @@ dialog button img {
   height: 100%;
   grid-row: 1 / 2;
   overflow: hidden;
+  background-color: var(--color-neutral-100);
 }
 
 .posts__gallary img {
@@ -99,6 +100,13 @@ dialog button img {
 .grid__4{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.grid__2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
 }
 
 .grid__1 {
@@ -134,7 +142,7 @@ dialog button img {
   }
 
   .posts__gallary img:hover {
-    filter: opacity(0.5);
+    filter: brightness(50%);
     cursor: pointer;
     transition: 0.2s;
   }
