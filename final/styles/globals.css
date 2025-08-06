@@ -211,7 +211,7 @@ section {
   gap: 1rem;
 }
 
-.footer__quick {
+.footer__links {
   grid-area: quick;
 }
 
