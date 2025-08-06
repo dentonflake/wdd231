@@ -1,14 +1,13 @@
 .box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   height: 100%;
 }
 
 .info__form {
   background-color: var(--color-neutral-100);
-  padding: 3rem;
+  padding: 2rem;
   box-shadow: var(--shadow-md);
-  border-right: solid 0.5rem var(--color-primary-500);
 
   display: grid;
   grid-template-columns: 1fr;
@@ -23,7 +22,7 @@
 
 .info__label {
   font-weight: var(--font-weight-medium);
-  color: var(--color-neutral-700)
+  color: var(--color-neutral-950)
 }
 
 .info__input,
@@ -83,4 +82,16 @@ select:invalid {
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: var(--shadow-md);
+}
+
+@media (min-width: 1050px) {
+
+  .box {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info__form {
+    border-right: solid 0.5rem var(--color-primary-500);
+  }
+
 }

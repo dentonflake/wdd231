@@ -1,0 +1,29 @@
+.main {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.message {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.message__details {
+  box-shadow: var(--shadow-md);
+  padding: 2rem;
+  background-color: var(--color-neutral-100);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.message__details h3 {
+  border-bottom: solid 0.25rem var(--color-primary-500);
+  max-width: max-content;
+}
+
+.message__details p {
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
+}
