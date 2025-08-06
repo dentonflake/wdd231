@@ -8,6 +8,7 @@
   background-color: var(--color-neutral-100);
   padding: 3rem;
   box-shadow: var(--shadow-md);
+  border-right: solid 0.5rem var(--color-primary-500);
 
   display: grid;
   grid-template-columns: 1fr;
