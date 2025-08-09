@@ -7,36 +7,45 @@ const createCard = (post, cast, postCards) => {
   gallery.classList.add(`grid__${post.images.length}`)
 
   post.images.forEach((img, i) => {
+    
+    const wrapper = document.createElement('div');
+    wrapper.className = 'image-wrapper';
+    wrapper.tabIndex = 0;
 
-    const image = document.createElement('img')
-    image.src = `images/${img}`
-    image.alt = `IMAGE ${i} OF "${post.title}" post`
-    image.loading = 'lazy'
-    gallery.appendChild(image)
+    const image = document.createElement('img');
+    image.src = `images/${img}`;
+    image.alt = `IMAGE ${i} OF "${post.title}" post`;
+    image.loading = 'lazy';
 
+    const overlay = document.createElement('span');
+    overlay.className = 'view-text';
+    overlay.textContent = 'VIEW';
 
-    const modal = document.createElement('dialog')
+    wrapper.appendChild(image);
+    wrapper.appendChild(overlay);
+    gallery.appendChild(wrapper);
 
-    image.addEventListener('click', () => {
+    const modal = document.createElement('dialog');
 
+    const openModal = () => {
       modal.innerHTML = '';
       const modalImage = image.cloneNode(true);
-      const button = document.createElement('button')
-      const close = document.createElement('img')
-      close.src = 'images/close.png'
-      button.appendChild(close)
+      const button = document.createElement('button');
+      const close = document.createElement('img');
+      close.src = 'images/close.png';
+      button.appendChild(close);
 
-      close.addEventListener('click', () => {
-        modal.close()
-      })
+      button.addEventListener('click', () => modal.close());
 
       modal.appendChild(modalImage);
-      modal.appendChild(button)
+      modal.appendChild(button);
       modal.showModal();
-    });
+    };
+
+    wrapper.addEventListener('click', openModal);
 
     card.appendChild(modal);
-  })
+  });
 
   const body = document.createElement('div')
   body.className = 'posts__body'
