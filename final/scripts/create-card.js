@@ -11,6 +11,7 @@ const createCard = (post, cast, postCards) => {
     const image = document.createElement('img')
     image.src = `images/${img}`
     image.alt = `IMAGE ${i} OF "${post.title}" post`
+    image.loading = 'lazy'
     gallery.appendChild(image)
 
 
