@@ -2,16 +2,16 @@ const createCard = (post, cast, postCards) => {
   const card = document.createElement('div')
   card.className = 'posts__card'
 
-  const gallary = document.createElement('div')
-  gallary.classList.add('posts__gallary')
-  gallary.classList.add(`grid__${post.images.length}`)
+  const gallery = document.createElement('div')
+  gallery.classList.add('posts__gallery')
+  gallery.classList.add(`grid__${post.images.length}`)
 
   post.images.forEach((img, i) => {
 
     const image = document.createElement('img')
     image.src = `images/${img}`
     image.alt = `IMAGE ${i} OF "${post.title}" post`
-    gallary.appendChild(image)
+    gallery.appendChild(image)
 
 
     const modal = document.createElement('dialog')
@@ -62,7 +62,7 @@ const createCard = (post, cast, postCards) => {
   date.className = `posts__date`
   body.appendChild(date)
 
-  card.appendChild(gallary)
+  card.appendChild(gallery)
   card.appendChild(body)
   postCards.appendChild(card)
 }
