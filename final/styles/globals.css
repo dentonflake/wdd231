@@ -105,6 +105,10 @@ section {
   padding: 2rem;
 }
 
+h2, h4 {
+  font-size: var(--text-lg);
+}
+
 .main__title {
   max-width: 1200px;
   padding: 3rem 2rem;
