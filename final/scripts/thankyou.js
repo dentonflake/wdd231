@@ -25,6 +25,7 @@ const formatPhoneNumber = (phone) => {
   return phone;
 };
 
+
 const queryParameters = getQueryParams()
 
 if (!validateRequiredFields(queryParameters)) {
@@ -40,3 +41,9 @@ const {
 document.getElementById('name').textContent = `${name}`;
 document.getElementById('phone').textContent = formatPhoneNumber(phone);
 document.getElementById('message').textContent = `${message}`;
+
+if (localStorage.getItem('hasVisited') === 'true') {
+  document.getElementById('subtitle').innerHTML = `<strong>It looks like you have reached out to us before!</strong> We appreciate you contributing to our family story!`
+}
+
+localStorage.setItem('hasVisited', 'true');
