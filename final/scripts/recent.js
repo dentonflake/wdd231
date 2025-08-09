@@ -1,14 +1,13 @@
 import fetchData from './fetch.js'
 import createCard from './create-post-card.js'
 
-const postCards = document.getElementById('posts-cards')
 const cast = await fetchData('data/cast.json')
 
 const main = async () => {
   const posts = await fetchData('data/posts.json')
-  posts.sort((a, b) => a.date < b.date)
+  posts.sort((a, b) => new Date(a.date).getTime() < new Date(b.date).getTime())
 
-  createCard(posts[0], cast, postCards)
+  createCard(posts[0], cast, 'posts-cards')
 }
 
 main()
