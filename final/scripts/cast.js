@@ -1,45 +1,15 @@
 import fetchData from './fetch.js'
+import createCard from './create-cast-card.js'
 
-const castCards = document.getElementById('cast-cards')
-
-const createCard = (member) => {
-  const card = document.createElement('div')
-  card.className = 'cast__card'
-
-  const header = document.createElement('div')
-  header.className = 'cast__header'
-
-  const image = document.createElement('img')
-  image.src = member.image ? `images/${member.image}` : 'images/default.jpg'
-  image.alt = `IMAGE OF ${member.firstName} ${member.lastName}`
-  image.loading = 'lazy'
-  header.appendChild(image)
-
-  const role = document.createElement('p')
-  role.textContent = member.role?.toUpperCase() || ''
-  header.appendChild(role)
-
-  const body = document.createElement('div')
-  body.className = 'cast__body'
-
-  const name = document.createElement('h3')
-  name.textContent = `${member.firstName} ${member.lastName}`.toUpperCase()
-  body.appendChild(name)
-
-  const description = document.createElement('p')
-  description.textContent = member.description || ''
-  body.appendChild(description)
-
-  card.appendChild(header)
-  card.appendChild(body)
-  castCards.appendChild(card)
-}
 
 const main = async () => {
+
   const cast = await fetchData('data/cast.json')
+
   if (cast && Array.isArray(cast)) {
-    cast.forEach(createCard)
+    cast.forEach(member => createCard(member, 'cast-cards'))
   }
+
 }
 
 main()

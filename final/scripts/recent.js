@@ -1,5 +1,5 @@
 import fetchData from './fetch.js'
-import createCard from './create-card.js'
+import createCard from './create-post-card.js'
 
 const postCards = document.getElementById('posts-cards')
 const cast = await fetchData('data/cast.json')

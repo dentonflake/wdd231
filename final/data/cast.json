@@ -5,8 +5,7 @@
     "lastName": "Flake",
     "role": "Dad",
     "image": "kirk.webp",
-    "description": "Kirk is the supportive father who enjoys spending time with his family and working on home projects.",
-    "DOB": "1970-10-15"
+    "description": "Kirk is the supportive father who enjoys spending time with his family and working on home projects."
   },
   {
     "id": 2,
@@ -14,8 +13,7 @@
     "lastName": "Flake",
     "role": "Mom",
     "image": "lori.webp",
-    "description": "Lori is the caring mother who loves cooking, gardening, and making everyone feel at home.",
-    "DOB": "1974-12-26"
+    "description": "Lori is the caring mother who loves cooking, gardening, and making everyone feel at home."
   },
   {
     "id": 3,
@@ -23,8 +21,7 @@
     "lastName": "Coombs",
     "role": "Daughter",
     "image": "lacy.webp",
-    "description": "Lacy is the creative sister who enjoys painting, music, and spending time with friends.",
-    "DOB": "1998-10-13"
+    "description": "Lacy is the creative sister who enjoys painting, music, and spending time with friends."
   },
   {
     "id": 4,
@@ -32,8 +29,7 @@
     "lastName": "Coombs",
     "role": "Son-in-law",
     "image": "cody.webp",
-    "description": "Cody is the energetic brother-in-law who loves sports, outdoor adventures, and family gatherings.",
-    "DOB": "1995-08-23"
+    "description": "Cody is the energetic brother-in-law who loves sports, outdoor adventures, and family gatherings."
   },
   {
     "id": 5,
@@ -41,8 +37,7 @@
     "lastName": "Flake",
     "role": "Son",
     "image": "denton.webp",
-    "description": "Denton is passionate about technology, enjoys coding, and values time with loved ones.",
-    "DOB": "2002-02-07"
+    "description": "Denton is passionate about technology, enjoys coding, and values time with loved ones."
   },
   {
     "id": 6,
@@ -50,8 +45,7 @@
     "lastName": "Flake",
     "role": "daughter-in-law",
     "image": "gracie.webp",
-    "description": "Gracie is a cheerful wife who loves baking, traveling, and making memories with family.",
-    "DOB": "2002-12-26"
+    "description": "Gracie is a cheerful wife who loves baking, traveling, and making memories with family."
   },
   {
     "id": 7,
@@ -59,8 +53,7 @@
     "lastName": "Flake",
     "role": "Son",
     "image": "bryce.webp",
-    "description": "Bryce is an adventurous brother who enjoys gaming, hiking, and learning new things.",
-    "DOB": "2005-10-20"
+    "description": "Bryce is an adventurous brother who enjoys gaming, hiking, and learning new things."
   },
   {
     "id": 8,
@@ -68,7 +61,6 @@
     "lastName": "Flake",
     "role": "Son",
     "image": "preston.webp",
-    "description": "Preston is the youngest brother who loves animals, playing outside, and exploring.",
-    "DOB": "2009-08-10"
+    "description": "Preston is the youngest brother who loves animals, playing outside, and exploring."
   }
 ]
