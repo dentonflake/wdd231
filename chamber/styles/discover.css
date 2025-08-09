@@ -92,8 +92,8 @@ h1 {
   }
 
   .places__card img:hover {
-    filter: saturate(0%);
-    transition: 2s;
+    filter: brightness(50%);
+    transition: 0.2s;
   }
 
   .places__card {
