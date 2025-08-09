@@ -1,4 +1,7 @@
-const createCard = (post, cast, postCards) => {
+const createCard = (post, cast, containerId) => {
+
+  const postCards = document.getElementById(containerId)
+
   const card = document.createElement('div')
   card.className = 'posts__card'
 
@@ -15,7 +18,6 @@ const createCard = (post, cast, postCards) => {
     const image = document.createElement('img');
     image.src = `images/${img}`;
     image.alt = `IMAGE ${i} OF "${post.title}" post`;
-    image.loading = 'lazy';
 
     const overlay = document.createElement('span');
     overlay.className = 'view-text';
@@ -68,7 +70,7 @@ const createCard = (post, cast, postCards) => {
   body.appendChild(description)
 
   const date = document.createElement('p')
-  date.textContent = new Date(post.date).toDateString().toUpperCase()
+  date.textContent = post.date
   date.className = `posts__date`
   body.appendChild(date)
 
